@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body style="background-color:gold;">
+  <h1 align='center' style="color:red;">HTML FORM</h1>
+  <form action="/action_page.php" method="get">
+  <table  width='480px'   align='center'>
+    <tr>
+      <td align='center' style="color:blue;font-size:20px">First Name:</td>
+      <td><input type='text' name='name'style="padding:15px 30px"></td>
+    </tr>
+    <tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='center' style="color:blue;font-size:20px;">Last Name:</td>
+    <td><input type='text' name='name' style="padding:15px 30px"></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='center' style="color:blue;font-size:20px">Gender:</td>
+    <td><input type='radio' id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type='radio' id="Female" name="gender" value="male">
+    <label for="male">Female</label></td>
+  </tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='center' style="color:blue;font-size:20px">Qualification:</td>
+    <td><label for="Qualification">Choose one:</label>
+  <select name="Qualification" id="Qualification">
+    <option value="SSC">SSC</option>
+    <option value="Inter">Inter</option>
+    <option value="B.Tech">B.Tech</option>
+    <option value="M.Tech">M.Tech</option>
+    <option value="phD">phD</option>
+  </select></td>
+  </tr>
+  <tr> <td>&nbsp;</td> </tr>
+<tr>
+  <td align='center'style="color:blue;font-size:20px">Email:</td>
+  <td><input type='email'placeholder="Enter your Email"style="padding:15px 30px"></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+  <td align='center' style="color:blue;font-size:20px"><label for="phone">Phone :</label></td>
+  <td><input type="tel" id="phone" name="phone" placeholder="enter numbers" pattern="[1-9]{1}[0-9]{9}" required style="padding:15px 30px"></td>
+  <tr><td>&nbsp;</td></tr>
+<tr>
+  <td align 'center' style="color:blue;font-size:20px"><label for="adress">Adress:</label></td>
+<td><textarea id="adress" name="adress" rows="7" cols="50"></textarea></td></tr>
+<td><tr>&nbsp;</td></tr>
+<td><tr>&nbsp;</td></tr>
+
+<tr>
+<td><button type="submit" value="Submit" style="background-color:#00FFFF;padding:10px 25px">Submit</button></td>
+<td><button type="reset" value="Reset" style="background-color:#00FFFF;padding:10px 25px;">Reset</button></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
